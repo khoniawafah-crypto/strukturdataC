@@ -93,6 +93,7 @@ st.markdown(f"""
   ➝ Node baru muncul di urutan sesuai cabang masing-masing.
 """)
 
+
 # Visualisasi Tree dengan Graphviz
 def draw_tree(root):
     dot = graphviz.Digraph()
@@ -111,3 +112,4 @@ def draw_tree(root):
 
 st.subheader("🌿 Visualisasi Tree")
 st.graphviz_chart(draw_tree(tree.root))
+
